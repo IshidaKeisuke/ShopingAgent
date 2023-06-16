@@ -1,19 +1,15 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
-import { NavigationProp } from '@react-navigation/native';
 import styles from './styles';
+import { ScreenProps } from '../../../types/interface'
 
-interface HomeScreenProps {
-  navigation: NavigationProp<any>;
-}
-
-const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
+const HomeScreen: React.FC<ScreenProps> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to the Shopping Assistant App!</Text>
       <Button
         title="Go to Orders"
-        onPress={() => navigation.navigate('OrderList')}
+        onPress={() => navigation.navigate('Home')}
       />
     </View>
   );

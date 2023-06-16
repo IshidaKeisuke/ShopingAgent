@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "157100728153",
+    "project_id": "shopingagent-bbe63",
+    "storage_bucket": "shopingagent-bbe63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157100728153:android:fe41e80ee6d2ef4103f648",
+        "android_client_info": {
+          "package_name": "com.company.shopingagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157100728153-s24cufaqd7rgpm0m0smrvvi1l8lv6i3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnLnIOjJHGLVMIQOUOwwWwFwtQiJMsKro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157100728153-0dd5jggvs050p3btvth9prajcnnnjrbn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157100728153-g9ukis0pqc9067lekaha2rrc8jq7veqo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ShopingAgent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
