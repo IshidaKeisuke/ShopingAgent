@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View } from 'react-native';
 import { HelperText } from 'react-native-paper';
 import { signIn } from '../../../services/AuthService';
-import { ScreenProps } from '../../../../types/interface'
+import { ScreenProps } from '../../../types/interface'
 import styles from './Styles';
 import Input from '../../../components/Input/Input';
 import Button from '../../../components/Button/Button';
