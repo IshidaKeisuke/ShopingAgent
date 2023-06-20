@@ -32,6 +32,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 25, 
   },
+  signUp: {
+    marginTop: 15,
+    alignItems: 'center',
+  },
+  signUpText: {
+    color: '#2196F3',
+    textDecorationLine: 'underline',
+    fontSize: 23.5,
+  },
 });
 
 export default styles

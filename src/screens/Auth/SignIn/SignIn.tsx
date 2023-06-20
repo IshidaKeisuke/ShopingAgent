@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native'; // Text, TouchableOpacityを追加
 import { HelperText } from 'react-native-paper';
 import { signIn } from '../../../services/AuthService';
 import { ScreenProps } from '../../../types/interface'
@@ -64,6 +64,9 @@ const SignInScreen: React.FC<ScreenProps> = ({ navigation }) => {
       <HelperText type="error" visible={!!error}>
         {error}
       </HelperText>
+      <TouchableOpacity onPress={() => navigation.navigate('SignUp')} style={styles.signUp}> 
+        <Text style={styles.signUpText}>会員登録していない方はこちら</Text> 
+      </TouchableOpacity>
     </View>
   );
 };
